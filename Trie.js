@@ -2,7 +2,6 @@ function Trienode(key){
     this.key = key;
     this.children = {};
     this.isLeaf = false;
-    this.parent = null;
 }
 
 class Trie{
